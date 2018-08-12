@@ -1,3 +1,10 @@
+// Hermes Zebrafish Overlay Maker 1.0
+// David Stirling, 2018
+// Pulls images from two directories
+// Overlays in green and transmission
+// Saves to a new folder
+//
+
 greenPath = getDirectory("Select the folder with the green images");
 greenList = getFileList(greenPath)
 whitePath = getDirectory("Select the folder with the brightfield images");
